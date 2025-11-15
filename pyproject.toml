@@ -1,0 +1,5 @@
+[project]
+name = "PySide Widgets Project"
+
+[tool.pyside6-project]
+files = ["config/db_config.py", "database/connection.py", "main.py", "models/barang_keluar_model.py", "models/barang_masuk_model.py", "models/barang_model.py", "models/instansi_model.py", "models/user_model.py", "ui/barang_form.ui", "ui/barang_keluar_form.ui", "ui/barang_masuk_form.ui", "ui/instansi_form.ui", "ui/login.ui", "ui/mainwindow.ui", "views/barang_form.py", "views/barang_keluar_form.py", "views/barang_masuk_form.py", "views/instansi_form.py", "views/login.py", "views/mainwindow.py"]

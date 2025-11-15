@@ -1,0 +1,168 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+    <class>MainWindow</class>
+    <widget class="QMainWindow" name="MainWindow">
+        <property name="geometry">
+            <rect>
+                <x>0</x>
+                <y>0</y>
+                <width>816</width>
+                <height>500</height>
+            </rect>
+        </property>
+        <property name="windowTitle">
+            <string>Aplikasi Gudang - Main Window</string>
+        </property>
+        <widget class="QWidget" name="centralwidget">
+            <layout class="QVBoxLayout" name="verticalLayout">
+                <item>
+                    <widget class="QLabel" name="labelTitle">
+                        <property name="styleSheet">
+                            <string notr="true">font-size: 20px; font-weight: bold; margin: 10px;</string>
+                        </property>
+                        <property name="text">
+                            <string>Dashboard Aplikasi Peralatan Kantor</string>
+                        </property>
+                        <property name="alignment">
+                            <set>Qt::AlignmentFlag::AlignCenter</set>
+                        </property>
+                    </widget>
+                </item>
+                <item>
+                    <spacer name="spacerTop">
+                        <property name="orientation">
+                            <enum>Qt::Orientation::Vertical</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                            <size>
+                                <width>20</width>
+                                <height>40</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </item>
+                <item>
+                    <layout class="QHBoxLayout" name="buttonLayout">
+                        <item>
+                            <spacer name="horizontalSpacerLeft">
+                                <property name="orientation">
+                                    <enum>Qt::Orientation::Horizontal</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>40</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnBarang">
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>150</width>
+                                        <height>40</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>Data Barang</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnBarangMasuk">
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>150</width>
+                                        <height>40</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>Barang Masuk</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnBarangKeluar">
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>150</width>
+                                        <height>40</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>Barang Keluar</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnInstansi">
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>150</width>
+                                        <height>40</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>Data Instansi</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <widget class="QPushButton" name="btnKeluar">
+                                <property name="minimumSize">
+                                    <size>
+                                        <width>150</width>
+                                        <height>40</height>
+                                    </size>
+                                </property>
+                                <property name="text">
+                                    <string>Keluar</string>
+                                </property>
+                            </widget>
+                        </item>
+                        <item>
+                            <spacer name="horizontalSpacerRight">
+                                <property name="orientation">
+                                    <enum>Qt::Orientation::Horizontal</enum>
+                                </property>
+                                <property name="sizeHint" stdset="0">
+                                    <size>
+                                        <width>40</width>
+                                        <height>20</height>
+                                    </size>
+                                </property>
+                            </spacer>
+                        </item>
+                    </layout>
+                </item>
+                <item>
+                    <spacer name="spacerBottom">
+                        <property name="orientation">
+                            <enum>Qt::Orientation::Vertical</enum>
+                        </property>
+                        <property name="sizeHint" stdset="0">
+                            <size>
+                                <width>20</width>
+                                <height>40</height>
+                            </size>
+                        </property>
+                    </spacer>
+                </item>
+            </layout>
+        </widget>
+        <widget class="QMenuBar" name="menubar">
+            <property name="geometry">
+                <rect>
+                    <x>0</x>
+                    <y>0</y>
+                    <width>816</width>
+                    <height>27</height>
+                </rect>
+            </property>
+        </widget>
+        <widget class="QStatusBar" name="statusbar" />
+    </widget>
+    <resources />
+    <connections />
+</ui>
