@@ -1,4 +1,4 @@
-# =Visual 3 - Aplikasi Inventaris Perkantoran
+# Visual 3 - Aplikasi Inventaris Perkantoran
 
 **Pembuat:**
 - Nama: Rudy
